@@ -115,6 +115,17 @@ body {
   width: 109px;
 }
 
+.wiki-kouman-logo{
+  height: 90px;
+  width: auto;
+}
+.wiki-kouman, textarea{
+  font-family: sans-serif !important;
+}
+
+#keyboard .diacritics.wiki-kouman{
+  background: #dba70c;
+}
 #keyboard .diacritics {
   background: black;
   color: white;
@@ -139,4 +150,17 @@ body {
   left: 1px;
   border-color: #e5e5e5;
   cursor: pointer;
+}
+
+.source-code {
+  font-size: .9rem;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+}
+
+.source-code .text{
+  padding: 10px 60px;
+  border-top: solid 1px #fff;
+  display: block;
 }
